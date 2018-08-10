@@ -1,7 +1,7 @@
 dependencies:
 - name: application
   repository: https://activiti.github.io/activiti-cloud-charts/
-  version: 0.1.16
+  version: 0.2.0
 - alias: expose
   name: exposecontroller
   repository: https://chartmuseum.build.cd.jenkins-x.io
@@ -12,7 +12,4 @@ dependencies:
   version: 2.3.58
 - name: infrastructure
   repository: https://activiti.github.io/activiti-cloud-charts/
-  version: 0.1.6
-- name: iron-mountain-activiti-7-poc
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 7.0.28
+  version: 0.2.0
